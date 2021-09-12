@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://madelinekreiff.github.io/csb-i6sw6/precache-manifest.58e89a43b7d3bf6096b797745b17c807.js"
+  "https://madelinekreiff.github.io/react-color-palette/precache-manifest.58e89a43b7d3bf6096b797745b17c807.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("https://madelinekreiff.github.io/csb-i6sw6/index.html", {
+workbox.routing.registerNavigationRoute("https://madelinekreiff.github.io/react-color-palette/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
